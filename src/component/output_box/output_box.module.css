@@ -1,0 +1,43 @@
+.output_box {
+  min-height: 500px;
+  padding: 20px 0px;
+  width: 700px;
+  background-color: aliceblue;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+
+.divisorNum {
+  width: 93%;
+  font-size: 50px;
+  border: 5px solid cadetblue;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 10px 0px;
+}
+
+.divisorBox {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.left,
+.right {
+  min-height: 450px;
+  width: 46%;
+  background-color: white;
+}
+.left {
+  border: 5px solid cadetblue;
+  border-right: 2.5px dashed cadetblue;
+}
+.right {
+  border: 5px solid cadetblue;
+  border-left: 2.5px dashed cadetblue;
+}
